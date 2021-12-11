@@ -19,6 +19,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MOBDEVEMCO">
         <activity
+            android:name=".GameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OptionActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -31,6 +37,6 @@
         <meta-data
             android:name="com.google.ar.core"
             android:value="required" />
-
     </application>
+
 </manifest>
