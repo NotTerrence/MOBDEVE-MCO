@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Work/Android/MOBDEVEMCO/app/src/main/res/layout/activity_game.xml" value="0.24010416666666667" />
         <entry key="..\:/Work/Android/MOBDEVEMCO/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Work/Android/MOBDEVEMCO/app/src/main/res/layout/activity_option.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>
