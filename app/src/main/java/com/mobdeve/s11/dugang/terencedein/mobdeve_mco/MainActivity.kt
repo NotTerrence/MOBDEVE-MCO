@@ -7,7 +7,6 @@ import android.util.Log
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 import com.mobdeve.s11.dugang.terencedein.mobdeve_mco.databinding.ActivityMainBinding
-import android.util.Log
 import androidx.activity.result.ActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import com.google.android.material.snackbar.Snackbar
