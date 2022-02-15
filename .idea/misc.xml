@@ -3,15 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Aki/Documents/DLSU/10th Term/MOBDEVE/MOBDEVE-MCO-main/app/src/main/res/layout/activity_game.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Aki/Documents/DLSU/10th Term/MOBDEVE/MOBDEVE-MCO-main/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3265625" />
+        <entry key="..\:/Users/Aki/Documents/DLSU/10th Term/MOBDEVE/MOBDEVE-MCO-main/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3265625" />
+        <entry key="..\:/Users/Aki/Documents/DLSU/10th Term/MOBDEVE/MOBDEVE-MCO-main/app/src/main/res/layout-land/activity_game.xml" value="0.26197916666666665" />
+        <entry key="..\:/Users/Aki/Documents/DLSU/10th Term/MOBDEVE/MOBDEVE-MCO-main/app/src/main/res/layout-land/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Aki/Documents/DLSU/10th Term/MOBDEVE/MOBDEVE-MCO-main/app/src/main/res/layout-land/activity_option.xml" value="0.26197916666666665" />
+        <entry key="..\:/Users/Aki/Documents/DLSU/10th Term/MOBDEVE/MOBDEVE-MCO-main/app/src/main/res/layout-land/activity_profile.xml" value="0.26197916666666665" />
+        <entry key="..\:/Users/Aki/Documents/DLSU/10th Term/MOBDEVE/MOBDEVE-MCO-main/app/src/main/res/layout-land/actovity_profile.xml" value="0.26197916666666665" />
+        <entry key="..\:/Users/Aki/Documents/DLSU/10th Term/MOBDEVE/MOBDEVE-MCO-main/app/src/main/res/layout-sw600dp/activity_profile.xml" value="0.1717896174863388" />
+        <entry key="..\:/Users/Aki/Documents/DLSU/10th Term/MOBDEVE/MOBDEVE-MCO-main/app/src/main/res/layout/activity_game.xml" value="0.22" />
         <entry key="..\:/Users/Aki/Documents/DLSU/10th Term/MOBDEVE/MOBDEVE-MCO-main/app/src/main/res/layout/activity_main.xml" value="0.1693840579710145" />
         <entry key="..\:/Users/Aki/Documents/DLSU/10th Term/MOBDEVE/MOBDEVE-MCO-main/app/src/main/res/layout/activity_option.xml" value="0.1693840579710145" />
-        <entry key="..\:/Work/Android/MOBDEVE-MCO/app/src/main/res/layout-land/activity_game.xml" value="0.21516754850088182" />
-        <entry key="..\:/Work/Android/MOBDEVE-MCO/app/src/main/res/layout-land/activity_main.xml" value="0.21516754850088182" />
-        <entry key="..\:/Work/Android/MOBDEVE-MCO/app/src/main/res/layout-land/activity_option.xml" value="0.21516754850088182" />
-        <entry key="..\:/Work/Android/MOBDEVE-MCO/app/src/main/res/layout/activity_game.xml" value="0.25416666666666665" />
-        <entry key="..\:/Work/Android/MOBDEVE-MCO/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
-        <entry key="..\:/Work/Android/MOBDEVE-MCO/app/src/main/res/layout/activity_option.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Aki/Documents/DLSU/10th Term/MOBDEVE/MOBDEVE-MCO-main/app/src/main/res/layout/activity_profile.xml" value="0.22780797101449277" />
+        <entry key="..\:/Users/Aki/Documents/DLSU/10th Term/MOBDEVE/MOBDEVE-MCO-main/app/src/main/res/layout/actovity_profile.xml" value="0.22780797101449277" />
+        <entry key="..\:/Users/Aki/Documents/DLSU/10th Term/MOBDEVE/MOBDEVE-MCO-main/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3265625" />
         <entry key="..\:/Work/Android/MOBDEVEMCO/app/src/main/res/layout/activity_main.xml" value="0.264" />
       </map>
     </option>
