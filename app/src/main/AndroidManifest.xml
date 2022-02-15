@@ -20,15 +20,19 @@
         android:theme="@style/Theme.MOBDEVEMCO">
         <activity
            android:name=".ProfileActivity"
+           android:screenOrientation = "landscape"
            android:exported="false" />
         <activity
             android:name=".GameActivity"
+            android:screenOrientation = "landscape"
             android:exported="false" />
         <activity
             android:name=".OptionActivity"
+            android:screenOrientation = "landscape"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+            android:screenOrientation = "landscape"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

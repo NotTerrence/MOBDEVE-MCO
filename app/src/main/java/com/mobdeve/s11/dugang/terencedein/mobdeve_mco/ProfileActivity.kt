@@ -2,6 +2,7 @@ package com.mobdeve.s11.dugang.terencedein.mobdeve_mco
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 import com.mobdeve.s11.dugang.terencedein.mobdeve_mco.databinding.ActivityProfileBinding
 
@@ -13,6 +14,7 @@ class ProfileActivity : AppCompatActivity() {
    override fun onCreate(savedInstanceState: Bundle?) {
       super.onCreate(savedInstanceState)
       binding = ActivityProfileBinding.inflate(layoutInflater)
+      window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
       setContentView(binding!!.root)
 
       binding.btnsaveprofile.setOnClickListener(){

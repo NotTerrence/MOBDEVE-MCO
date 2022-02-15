@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
    var startForResult = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) {
          result:ActivityResult ->
 
-      if(result.resultCode == Activity.RESULT_OK){
+      if(result.resultCode == RESULT_OK){
          var bundle = result.data!!.extras
 
          Log.i("RESULT", bundle!!.getString("username", "NO NAME PASSED"))
@@ -41,9 +41,6 @@ class MainActivity : AppCompatActivity() {
 
    override fun onCreate(savedInstanceState: Bundle?) {
       super.onCreate(savedInstanceState)
-      binding = ActivityMainBinding.inflate(layoutInflater)
-      setContentView(binding!!.root)
-
       binding = ActivityMainBinding.inflate(layoutInflater)
       window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
       setContentView(binding!!.root)
