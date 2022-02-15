@@ -10,8 +10,9 @@
       android:id="@+id/textusername"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:layout_marginLeft="24dp"
-      android:layout_marginTop="15dp"
+      android:layout_marginTop="25dp"
+      android:layout_marginLeft="25dp"
+      android:layout_marginRight="25dp"
       android:hint="Username"
       android:minHeight="48dp"
       android:textColor="#FFFFFF"
@@ -24,7 +25,6 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:layout_marginLeft="25dp"
-      android:layout_marginTop="10dp"
       android:layout_marginRight="25dp"
       android:hint="First Name"
       android:minHeight="48dp"
@@ -38,14 +38,12 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:layout_marginLeft="25dp"
-      android:layout_marginTop="10dp"
       android:layout_marginRight="25dp"
       android:hint="Last Name"
       android:minHeight="48dp"
       android:textColor="#FFFFFF"
       android:textColorHint="#FFFFFF"
       app:layout_constraintLeft_toLeftOf="parent"
-
       app:layout_constraintTop_toBottomOf="@id/textfirstname" />
 
    <EditText
@@ -53,7 +51,6 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:layout_marginLeft="25dp"
-      android:layout_marginTop="10dp"
       android:layout_marginRight="25dp"
       android:hint="Email"
       android:minHeight="48dp"
@@ -68,7 +65,6 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:layout_marginLeft="25dp"
-      android:layout_marginTop="10dp"
       android:layout_marginRight="25dp"
       android:hint="Birthday"
       android:minHeight="48dp"
@@ -81,15 +77,16 @@
       android:id="@+id/btnsaveprofile"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:layout_marginLeft="15dp"
-      android:layout_marginRight="15dp"
-      android:layout_marginTop="8dp"
       android:backgroundTint="#D55656"
       android:text="save profile"
       android:textAlignment="center"
       android:textSize="20dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginLeft="25dp"
+      android:layout_marginRight="25dp"
+      android:layout_marginBottom="10dp"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintLeft_toLeftOf="parent"
-      app:layout_constraintTop_toBottomOf="@id/textbirthdate" />
+      app:layout_constraintBottom_toBottomOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
