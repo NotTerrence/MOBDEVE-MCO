@@ -23,13 +23,9 @@
            android:screenOrientation = "landscape"
            android:exported="false" />
         <activity
-            android:name=".GameActivity"
-            android:screenOrientation = "landscape"
-            android:exported="false" />
-        <activity
-            android:name=".OptionActivity"
-            android:screenOrientation = "landscape"
-            android:exported="false" />
+           android:name=".GameActivity"
+           android:screenOrientation = "landscape"
+           android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:screenOrientation = "landscape"

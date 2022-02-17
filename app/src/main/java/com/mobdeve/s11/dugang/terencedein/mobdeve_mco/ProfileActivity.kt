@@ -6,7 +6,6 @@ import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 import com.mobdeve.s11.dugang.terencedein.mobdeve_mco.databinding.ActivityProfileBinding
 
-
 class ProfileActivity : AppCompatActivity() {
 
    lateinit var binding: ActivityProfileBinding

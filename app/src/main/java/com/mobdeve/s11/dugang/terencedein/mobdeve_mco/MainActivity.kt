@@ -46,6 +46,7 @@ class MainActivity : AppCompatActivity() {
       setContentView(binding!!.root)
       bgMusic = MediaPlayer.create(this, R.raw.bensound)
       bgMusic.isLooping = true
+      bgMusic.start()
 
       binding.btnsignprofile.setOnClickListener {
          var gotoProfileActivity = Intent(applicationContext, ProfileActivity::class.java)
@@ -76,30 +77,14 @@ class MainActivity : AppCompatActivity() {
 
    override fun onStart() {
       super.onStart()
-      bgMusic.start()
-
-   }
-
-   override fun onResume() {
-      super.onResume()
-      binding.togglebuttonMusic!!.setOnCheckedChangeListener { _, isChecked ->
-         if (isChecked) {
-            bgMusic.start()
-         } else {
-            bgMusic.pause()
-         }
-      }
+      if(binding.togglebuttonMusic!!.isChecked)
+         bgMusic.start()
+      else
+         bgMusic.pause()
    }
 
    override fun onPause() {
       super.onPause()
-      binding.togglebuttonMusic!!.setOnCheckedChangeListener { _, isChecked ->
-         if (isChecked) {
-            bgMusic.start()
-         } else {
-            bgMusic.pause()
-         }
-      }
       bgMusic.pause()
    }
 }
