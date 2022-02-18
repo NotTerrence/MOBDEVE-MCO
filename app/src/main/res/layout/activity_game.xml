@@ -4,92 +4,63 @@
    xmlns:tools="http://schemas.android.com/tools"
    android:layout_width="match_parent"
    android:layout_height="match_parent"
-   android:background="#FFFFFF">
+   android:background="#f6efe9">
 
+   <RadioGroup
+      android:id="@+id/radioGroup"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_margin="10dp"
+      android:gravity="center"
+      android:orientation="horizontal"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
 
-   <androidx.constraintlayout.widget.ConstraintLayout
-      android:layout_width="match_parent"
-      android:layout_height="68dp"
-      android:background="#9E9E9E"
-      app:layout_constraintBottom_toBottomOf="parent"
-      app:layout_constraintStart_toStartOf="parent">
-
-      <TextView
-         android:id="@+id/base_life"
+      <RadioButton
+         android:id="@+id/radioRocket"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
-         android:layout_marginLeft="10dp"
-         android:layout_marginBottom="20dp"
-         android:text="10/10"
-         android:textSize="20sp"
-         android:textStyle="bold"
-         app:layout_constraintBottom_toBottomOf="parent"
-         app:layout_constraintLeft_toLeftOf="parent"
-         tools:layout_editor_absoluteX="16dp"
-         tools:layout_editor_absoluteY="21dp" />
+         android:layout_marginStart="5dp"
+         android:layout_marginEnd="5dp"
+         android:layout_marginBottom="5dp"
+         android:checked="true"
+         android:onClick="onRadioButtonClicked"
+         android:text="Rocket" />
 
-      <ImageView
-         android:id="@+id/tower_1"
-         android:layout_width="50dp"
-         android:layout_height="50dp"
-         android:layout_marginLeft="154dp"
-         android:layout_marginBottom="8dp"
-         android:src="@drawable/itachi"
-         app:layout_constraintBottom_toBottomOf="parent"
-         app:layout_constraintLeft_toRightOf="@+id/base_life" />
+      <RadioButton
+         android:id="@+id/radioMachineGun"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginStart="5dp"
+         android:layout_marginEnd="5dp"
+         android:layout_marginBottom="5dp"
+         android:checked="false"
+         android:onClick="onRadioButtonClicked"
+         android:text="Machine Gun" />
 
-      <ImageView
-         android:id="@+id/tower_2"
-         android:layout_width="50dp"
-         android:layout_height="50dp"
-         android:layout_marginLeft="10dp"
-         android:layout_marginBottom="8dp"
-         android:src="@drawable/itachi"
-         app:layout_constraintBottom_toBottomOf="parent"
-         app:layout_constraintLeft_toRightOf="@+id/tower_1"
-         tools:layout_editor_absoluteX="340dp"
-         tools:layout_editor_absoluteY="9dp" />
+      <RadioButton
+         android:id="@+id/radioEnemy"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginStart="5dp"
+         android:layout_marginEnd="5dp"
+         android:layout_marginBottom="5dp"
+         android:checked="false"
+         android:onClick="onRadioButtonClicked"
+         android:text="Enemy" />
 
-      <ImageView
-         android:id="@+id/tower_3"
-         android:layout_width="50dp"
-         android:layout_height="50dp"
-         android:layout_marginLeft="10dp"
-         android:layout_marginBottom="8dp"
-         android:src="@drawable/itachi"
-         app:layout_constraintBottom_toBottomOf="parent"
-         app:layout_constraintLeft_toRightOf="@+id/tower_2" />
+   </RadioGroup>
 
-      <ImageView
-         android:id="@+id/tower_4"
-         android:layout_width="50dp"
-         android:layout_height="50dp"
-         android:layout_marginLeft="10dp"
-         android:layout_marginBottom="8dp"
-         android:src="@drawable/itachi"
-         app:layout_constraintBottom_toBottomOf="parent"
-         app:layout_constraintLeft_toRightOf="@+id/tower_3" />
-
-      <ImageView
-         android:id="@+id/tower_5"
-         android:layout_width="50dp"
-         android:layout_height="50dp"
-         android:layout_marginLeft="10dp"
-         android:layout_marginBottom="8dp"
-         android:src="@drawable/itachi"
-         app:layout_constraintBottom_toBottomOf="parent"
-         app:layout_constraintLeft_toRightOf="@+id/tower_4" />
-
-      <ImageView
-         android:id="@+id/img_settings"
-         android:layout_width="45dp"
-         android:layout_height="45dp"
-         android:layout_marginLeft="164dp"
-         android:layout_marginBottom="12dp"
-         android:src="@drawable/settings_icon"
-         app:layout_constraintBottom_toBottomOf="parent"
-         app:layout_constraintLeft_toRightOf="@+id/tower_5" />
-
-   </androidx.constraintlayout.widget.ConstraintLayout>
+   <!--This is the fragment that will be used as AR camera-->
+   <fragment
+      android:id="@+id/arCameraArea"
+      android:name="com.google.ar.sceneform.ux.ArFragment"
+      android:layout_width="0dp"
+      android:layout_height="0dp"
+      app:layout_constraintTop_toBottomOf="@id/radioGroup"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintBottom_toBottomOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
